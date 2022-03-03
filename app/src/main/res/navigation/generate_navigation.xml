@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/generate_navigation"
+    tools:ignore="InvalidNavigation">
+
+    <fragment
+        android:id="@+id/clipBoardFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.ClipBoardFragment"
+        android:label="fragment_clip_board"
+        tools:layout="@layout/fragment_clip_board" >
+        <action
+            android:id="@+id/action_clipBoardFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/websiteFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.WebsiteFragment"
+        android:label="fragment_website"
+        tools:layout="@layout/fragment_website" >
+        <action
+            android:id="@+id/action_websiteFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wifiFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.WifiFragment"
+        android:label="fragment_wifi"
+        tools:layout="@layout/fragment_wifi" >
+        <action
+            android:id="@+id/action_wifiFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/textFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.TextFragment"
+        android:label="fragment_text"
+        tools:layout="@layout/fragment_text" >
+        <action
+            android:id="@+id/action_textFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" >
+        <action
+            android:id="@+id/action_contactFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cellPhoneFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.CellPhoneFragment"
+        android:label="fragment_cell_phone"
+        tools:layout="@layout/fragment_cell_phone" >
+        <action
+            android:id="@+id/action_cellPhoneFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.EmailFragment"
+        android:label="fragment_email"
+        tools:layout="@layout/fragment_email" >
+        <action
+            android:id="@+id/action_emailFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/SMSFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.SMSFragment"
+        android:label="fragment_sms"
+        tools:layout="@layout/fragment_sms" >
+        <action
+            android:id="@+id/action_SMSFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCardFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.MyCardFragment"
+        android:label="fragment_my_card"
+        tools:layout="@layout/fragment_my_card" >
+        <action
+            android:id="@+id/action_myCardFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/GEOFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.GEOFragment"
+        android:label="fragment_geo"
+        tools:layout="@layout/fragment_geo" >
+        <action
+            android:id="@+id/action_GEOFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_calendarFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/facebookFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.FacebookFragment"
+        android:label="fragment_facebook"
+        tools:layout="@layout/fragment_facebook" >
+        <action
+            android:id="@+id/action_facebookFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/youTubeFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.YouTubeFragment"
+        android:label="fragment_you_tube"
+        tools:layout="@layout/fragment_you_tube" >
+        <action
+            android:id="@+id/action_youTubeFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/whatsAppFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.WhatsAppFragment"
+        android:label="fragment_whats_app"
+        tools:layout="@layout/fragment_whats_app" >
+        <action
+            android:id="@+id/action_whatsAppFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/payPalFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.PayPalFragment"
+        android:label="fragment_pay_pal"
+        tools:layout="@layout/fragment_pay_pal" >
+        <action
+            android:id="@+id/action_payPalFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/twitterFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.TwitterFragment"
+        android:label="fragment_twitter"
+        tools:layout="@layout/fragment_twitter" >
+        <action
+            android:id="@+id/action_twitterFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/instagramFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.InstagramFragment"
+        android:label="fragment_instagram"
+        tools:layout="@layout/fragment_instagram" >
+        <action
+            android:id="@+id/action_instagramFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spotifyFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.SpotifyFragment"
+        android:label="fragment_spotifi"
+        tools:layout="@layout/fragment_spotifi" >
+        <action
+            android:id="@+id/action_spotifyFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tikTokFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.TikTokFragment"
+        android:label="fragment_tik_tok"
+        tools:layout="@layout/fragment_tik_tok" >
+        <action
+            android:id="@+id/action_tikTokFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viberFragment"
+        android:name="com.codescannerqr.generator.view.fragments.generateCodes.ViberFragment"
+        android:label="fragment_viber"
+        tools:layout="@layout/fragment_viber" >
+        <action
+            android:id="@+id/action_viberFragment_to_generatedFragment"
+            app:destination="@id/generatedFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/generatedFragment"
+        android:name="com.codescannerqr.generator.view.fragments.editGeneratedCodes.GeneratedFragment"
+        android:label="fragment_generated"
+        tools:layout="@layout/fragment_generated" >
+        <action
+            android:id="@+id/action_generatedFragment_to_styleEditFragment"
+            app:destination="@id/styleEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/styleEditFragment"
+        android:name="com.codescannerqr.generator.view.fragments.editGeneratedCodes.StyleEditFragment"
+        android:label="fragment_style_edit"
+        tools:layout="@layout/fragment_style_edit" />
+</navigation>

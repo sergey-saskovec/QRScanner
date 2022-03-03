@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.generateCodes.YouTubeFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputEditTextYouTube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundColor="@android:color/transparent"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextYouTube"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/txt14sp"
+            android:hint="@string/youtube_url"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewURLYouTube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shape_oval"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/txt14sp"
+        android:text="@string/url"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/textViewVideoIDYotube"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditTextYouTube" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewVideoIDYotube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shape_oval"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/txt14sp"
+        android:text="@string/video_id"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/textViewChannelIDYoutube"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditTextYouTube" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewChannelIDYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/shape_oval"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/txt14sp"
+        android:text="@string/channel_id"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditTextYouTube" />
+
+    <Button
+        android:id="@+id/buttonCreateYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/button_create"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt24sp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

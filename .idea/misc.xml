@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/drawable/back_one_boarding.xml" value="0.14635416666666667" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/activity_free_trial.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/activity_generate_code.xml" value="0.11614583333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/activity_interstitial.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/activity_main2.xml" value="0.11614583333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/ad_unified_item.xml" value="0.11614583333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/fragment_four.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/fragment_in_app_boarding.xml" value="0.176" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/fragment_in_app_boarding2.xml" value="0.11614583333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/fragment_one.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/fragment_three.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/fragment_two.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/gnt_custom_medium_template_view.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/gnt_medium_template_view.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/gnt_small_template_view.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/item_history_list.xml" value="0.11614583333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/item_in_app_2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/item_inapp_boarding.xml" value="0.11614583333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerGitHub/app/src/main/res/layout/shimmer_placeholder_layout.xml" value="0.11614583333333334" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/back_button_boarding.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/back_cardview_boarding.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/back_one_boarding.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/background_transparent.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/bnv_tab_item_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/circle_white.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/ic_back_generate.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/ic_back_item_border.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/ic_back_item_logo.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/ic_back_premium.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/drawable/ic_back_sale.xml" value="0.2703125" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/activity_free_trial.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/activity_generate_code.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/activity_one_boarding.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/custom_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_in_app.xml" value="0.2" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_in_app_boarding.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_in_app_boarding2.xml" value="0.2" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_one.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_scanner_qr.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_three.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/fragment_two.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/item_admob_native_ad.xml" value="0.25025641025641027" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/item_history_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/item_in_app_2.xml" value="0.4250386398763524" />
+        <entry key="..\:/Disk_D/AndroidStudioProject/QRScannerNew/QRScanner/app/src/main/res/layout/item_inapp_boarding.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

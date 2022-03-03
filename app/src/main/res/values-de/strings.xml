@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">QR Scanner</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="field_empty">Füllen Sie alle Felder aus</string>
+    <string name="error_product_code">Füllen Sie alle Felder aus oder Länge 12 Symbole</string>
+
+    <!--BASE STRING MAIN UI-->
+    <string name="tools">Werkzeuge</string>
+    <string name="history">Geschichte</string>
+    <string name="settings">Einstellungen</string>
+
+    <!--NAME HISTORY FRAGMENT-->
+    <string name="scan">Scan</string>
+    <string name="create">Schaffen</string>
+    <string name="bookmark">Lesezeichen</string>
+
+    <!--List color generate codes-->
+    <string name="clipboard">Zwischenablage</string>
+    <string name="website">Webseite</string>
+    <string name="wifi">Wifi</string>
+    <string name="text">Text</string>
+    <string name="contact">Kontakt</string>
+    <string name="cellphone">Cellphone</string>
+    <string name="email">Email</string>
+    <string name="sms">SMS</string>
+    <string name="my_card">Meine Karte</string>
+    <string name="geo">GEO</string>
+    <string name="calendar">Kalender</string>
+    <string name="product_code">Produktcode</string>
+
+    <string name="header2">Sozialen Medien</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="youtube">Youtube</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="paypal">PayPal</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="spotify">Spotify</string>
+    <string name="tiktok">TikTok</string>
+    <string name="viber">Viber</string>
+
+
+    <!--String generate folder view-->
+    <string name="button_create">Schaffen</string>
+    <string name="url">URL</string>
+    <string name="www">www.</string>
+    <string name="com">.com</string>
+    <string name="security_mode">Sicherheitsmodus</string>
+    <string name="network_name">Netzwerkname (SSID)</string>
+    <string name="password">Passwort</string>
+    <string name="securityWPA">WPA/WPA2</string>
+    <string name="securityWEP">WEP</string>
+    <string name="securityNone">None</string>
+    <string name="name">Name</string>
+    <string name="my_name">Main name</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="subject">Gegenstand</string>
+    <string name="address">Die Anschrift</string>
+    <string name="org">Org</string>
+    <string name="latitude">Breite</string>
+    <string name="longitude">Längengrad</string>
+    <string name="event_title">Veranstaltungstitel</string>
+    <string name="event_address">Veranstaltungsadresse</string>
+    <string name="time_zone">Zeitzone</string>
+    <string name="start">Start</string>
+    <string name="time_hint">00:00</string>
+    <string name="date_hint">01.01.1990</string>
+    <string name="end">Ende</string>
+    <string name="all_day">Den ganzen Tag</string>
+    <string name="daylight_savings">Sommerzeit</string>
+
+    <string name="facebook_id">Facebook ID</string>
+    <string name="facebook_url">Facebook URL</string>
+    <string name="youtube_url">YouTube URL</string>
+    <string name="youtube_video_id">YouTube Video ID</string>
+    <string name="youtube_channel_id">YouTube Channel ID</string>
+    <string name="video_id">Video ID</string>
+    <string name="channel_id">Channel ID</string>
+    <string name="paypal_link">PayPal Me Link</string>
+    <string name="link">Link</string>
+    <string name="username">Username</string>
+    <string name="paypal_username">PayPal username</string>
+    <string name="twitter_id">Twitter ID</string>
+    <string name="twitter_url">Twitter URL</string>
+    <string name="instagram_username">Instagram username</string>
+    <string name="instagram_url">Instagram URL</string>
+    <string name="spotify_artist_name">Artist name</string>
+    <string name="spotify_song_name">Song name</string>
+    <string name="tiktok_id">TikTok ID</string>
+    <string name="tiktok_url">TikTok URL</string>
+
+    <!--GENERATED FRAGMENT-->
+    <string name="generated_qr">Generierter QR</string>
+    <string name="done">Fertig</string>
+    <string name="save">Speichern</string>
+    <string name="style">Stil</string>
+    <string name="style_preview">Stilvorschau</string>
+    <string name="share">Teilen</string>
+    <string name="print">Drucken</string>
+    <string name="toast_done">QR-Code erfolgreich</string>
+    <string name="default_style">Standard</string>
+    <string name="color">Farbe</string>
+    <string name="logo">Logo</string>
+    <string name="bg">BG</string>
+    <string name="single_color">Einzelne Farbe</string>
+    <string name="gradient_color">Farbverlauf</string>
+    <string name="saved_image">Dieses Bild gespeichert</string>
+    <string name="no">Nein</string>
+    <string name="discard">Verwerfen</string>
+    <string name="alert">Alarm</string>
+    <string name="string_alert">Möchten Sie wirklich verwerfen?</string>
+
+    <!--String PERMISSION-->
+    <string name="perm_contact_denied">Kontaktberechtigung verweigert</string>
+    <string name="perm_camera_denied">Kameraberechtigung verweigert</string>
+    <string name="perm_file_denied">Dateiberechtigung verweigert</string>
+    <string name="file_permission">Datei- und Medienberechtigung</string>
+    <string name="file_permission_desc">Um diese Funktion nutzen zu können, müssen Sie \n den Zugriff auf Fotos, Medien, \n und Dateien erlauben</string>
+    <string name="allow">Erlauben</string>
+    <string name="camera_permission">Kameraberechtigung</string>
+    <string name="contact_permission">Kontakterlaubnis</string>
+    <string name="camera_permission_desc">Du musst \n Kamerazugriff erlauben, damit diese App \n Bilder aufnehmen kann</string>
+    <string name="contact_permission_desc">Du musst \n Kontaktzugriff erlauben, damit diese App \n Kontakt aufnehmen kann</string>
+    <string name="remove_ads">Anzeigen entfernen</string>
+    <string name="remove_ads_desc">QR-Scanner wird von Anzeigen unterstützt \n aber jetzt können Sie die!</string>
+    <string name="remove_ads_after_price">/ Einmaliger kauf</string>
+    <string name="remove_ads_get_pro">Werde professoinell</string>
+
+    <string name="testText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+
+
+    <!--String HISTORY FRAGMENTS-->
+    <string name="add_to_bookmark">Zu Lesezeichen hinzufügen</string>
+    <string name="delete">Löschen</string>
+    <string name="preview">Vorschau</string>
+    <string name="data_found">Keine Daten gefunden</string>
+    <string name="create_now"><u>Jetzt erstellen</u></string>
+    <string name="remove_from_bookmark">Aus Lesezeichen entfernen</string>
+
+
+    <!--Result strings-->
+    <string name="result">Ergebnis</string>
+    <string name="tel">Tel:</string>
+    <string name="message">Nachricht</string>
+    <string name="ssid">SSID</string>
+    <string name="security">Sicherheit</string>
+    <string name="description">Beschreibung</string>
+    <string name="start_time">Startzeit</string>
+    <string name="end_time">Endzeit</string>
+    <string name="search">Suche</string>
+    <string name="copy">Kopieren</string>
+    <string name="connect">Verbinden</string>
+    <string name="add">Hinzufügen</string>
+    <string name="dial">Wählen</string>
+    <string name="maps">Karten</string>
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="wifi_settings">Wlan einstellungen</string>
+
+    <!--Content description Image-->
+    <string name="back">back</string>
+    <string name="prem">prem</string>
+    <string name="placeholder">placeholder</string>
+
+    <!--In APP Fragment-->
+    <string name="qr">QR</string>
+    <string name="scanner">Scanner</string>
+    <string name="title_in_app">Warte eine Sekunde</string>
+    <string name="desc_in_app">Wir geben einen Rabatt, wenn Sie dieses Angebot jetzt nutzen</string>
+    <string name="string_one_month">1 Monat</string>
+    <string name="string_free_7_days">7 Tage kostenlose Testversion</string>
+    <string name="string_free_7_days_2">Kostenlose 7-Tage-Testversion \n nach der Testversion jederzeit kündbar</string>
+    <string name="after_desc">nach der Testversion jederzeit kündigen</string>
+    <string name="year_desc">/jahr </string>
+    <string name="continue_in_app">Weitermachen</string>
+    <string name="footer_in_app_1">Sie können Ihr Abonnement in Ihrem Google Play-Konto verwalten</string>
+    <string name="footer_in_app_2">Versteht und stimmt zu </string>
+    <string name="footer_in_app_3"><u>Bedingungen </u></string>
+    <string name="footer_in_app_4">und </string>
+    <string name="footer_in_app_5"><u>Privatsphäre</u></string>
+
+
+    <!--Settings-->
+    <string name="display_language">Sprache</string>
+    <string name="language">Sprache</string>
+    <string name="vibration">Vibration</string>
+    <string name="sound">Klang</string>
+    <string name="auto_copy">Automatische Kopie</string>
+    <string name="auto_search">Automatische Websuche</string>
+    <string name="save_history">Verlauf speichern</string>
+    <string name="general">Allgemein</string>
+    <string name="restore_purchase">Kauf wiederherstellen</string>
+    <string name="privacy_policy">Datenschutz-Bestimmungen</string>
+    <string name="share_friends">Freunde teilen</string>
+    <string name="rate_us">Bewerten Sie uns</string>
+    <string name="no_activity_intent">Keine Aktivitätsabsicht</string>
+    <string name="share_settings">Ich benutze diese App QRScanner</string>
+    <string name="premium">Prämie</string>
+    <string name="percent_70">-70%</string>
+    <string name="export_history">Verlauf in CSV exportieren</string>
+    <string name="no_codes_found">Keine Codes gefunden</string>
+    <string name="can_not_open">Kann Datei nicht öffnen</string>
+    <string name="_0_300">0/300</string>
+
+    <!--ADS-->
+
+    <!--BOARDING-->
+    <string name="title_one_boarding">QR-scanner</string>
+    <string name="desc_one_boarding">Scannen Sie alle Arten von QR-Codes</string>
+    <string name="title_two_boarding">Strichcodes</string>
+    <string name="desc_two_boarding">Verwandeln Sie Ihr Telefon in einen Taschenscanner</string>
+    <string name="title_three_boarding">QR-Code scannen und generieren</string>
+    <string name="desc_three_boarding">Erstellen Sie unbegrenzt QR-Codes</string>
+    <string name="restore_purchase_drop_n">Kauf \n wiederherstellen</string>
+
+    <!--IN APP NEW-->
+    <string name="in_app_new_title_1">Unbegrenzte Exporte</string>
+    <string name="in_app_new_title_2">Scan &amp; erstellen QR &amp; Strichcode</string>
+    <string name="in_app_new_title_3">Schnell &amp; Sicherer scan</string>
+    <string name="in_app_new_title_4">Keine Werbung</string>
+
+    <string name="in_app_new_desc_1">Erhalten Sie unbegrenzte Exporte von QR-Code zu Barcode, EAN-8, Website und weiteren Codes</string>
+    <string name="in_app_new_desc_2">Erhalten Sie unbegrenzten Scan und lesen Sie alle QR-Codes, Barcodes und viele weitere Codes</string>
+    <string name="in_app_new_desc_3">Scannen Sie sehr schnell alles vom QR-Code. Sichern Sie Ihre QR-Codes und Barcodes</string>
+    <string name="in_app_new_desc_4">Anzeigen vollständig entfernen</string>
+    <string name="in_app_new_desc_5">Kostenlose 3-Tage-Testversion, dann automatische Verlängerung für —,— $/Jahr. Jederzeit kündbar</string>
+    <string name="in_app_new_desc_5_1">Kostenlose 3-Tage-Testversion, dann automatische Verlängerung um </string>
+    <string name="in_app_new_desc_5_1_2">/monat</string>
+    <string name="in_app_new_desc_5_2">. Jederzeit kündbar</string>
+    <string name="in_app_new_desc_6"><u>Oder fahren Sie mit der eingeschränkten Version fort</u></string>
+    <string name="unlock_features">Alle Funktionen freischalten</string>
+
+    <string name="message_more_gas_acquired">More gas acquired!</string>
+    <string name="message_premium">You\'re now a premium driver!</string>
+    <string name="message_subscribed">Thank you for subscribing! You have infinite gas!</string>
+
+    <string name="buyer_month">You have already bought the product: month no ads</string>
+    <string name="buyer_year">You have already bought the product: year no ads</string>
+
+    <!--IN APP NEW 2-->
+    <string name="title_in_app_2">Try Premium \n version for FREE!</string>
+    <string name="desc_in_app_2">The best app to scan QR codes and \n create your own ones!</string>
+    <string name="basic">Basic</string>
+    <string name="unlimited_scans_available">Unlimited scans available</string>
+    <string name="customize_your_QR_codes">Customize your QR codes</string>
+    <string name="save_history_to_csv_file">Save history to csv file</string>
+    <string name="without_ADS">Without ADS</string>
+    <string name="all_latest_features">All latest features</string>
+    <string name="priority_support">Priority support</string>
+    <string name="free_3_days_0">Free 3 days trial, then auto-renew \n at —.—/month. Cancel anytime</string>
+    <string name="free_3_days_1">Free 3 days trial, then auto-renew \n at</string>
+    <string name="free_3_days_2">/month. Cancel anytime</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="start_7_day_trial">START 3 DAY FREE TRIAL</string>
+    <string name="privacy_policy_in_app_2"><u>Privacy Policy</u></string>
+    <string name="restore_purchase_in_app_2"><u>Restore Purchase</u></string>
+    <string name="terms_of_use_in_app_2"><u>Terms of use</u></string>
+
+
+</resources>

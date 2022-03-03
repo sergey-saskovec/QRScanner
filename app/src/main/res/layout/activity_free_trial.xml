@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.FreeTrialActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentInAppPH"
+        android:name="com.codescannerqr.generator.view.fragments.bottomNavigate.InAppFragmentBoarding2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_in_app_boarding2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

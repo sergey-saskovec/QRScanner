@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text18Sp">30sp</dimen>
+    <dimen name="txt14sp">25sp</dimen>
+    <dimen name="txt12sp">23sp</dimen>
+    <dimen name="txt24sp">35sp</dimen>
+    <dimen name="txt20sp">32sp</dimen>
+    <dimen name="txt10sp">22sp</dimen>
+    <dimen name="txt18sp">28sp</dimen>
+    <dimen name="txt9sp">20sp</dimen>
+    <dimen name="heightTextResult">200dp</dimen>
+</resources>

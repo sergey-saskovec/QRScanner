@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_generate">
+
+    <fragment
+        android:id="@+id/navigation_generate"
+        android:name="com.codescannerqr.generator.view.fragments.bottomNavigate.GenerateCodeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_generate_bottom" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.codescannerqr.generator.view.fragments.bottomNavigate.HistoryBottomFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_history_bottom">
+        <action
+            android:id="@+id/action_navigation_history_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_navigation_history_to_stylePreviewFragment"
+            app:destination="@id/stylePreviewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_scanner"
+        android:name="com.codescannerqr.generator.view.fragments.bottomNavigate.ScannerQRFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_scanner_qr">
+        <action
+            android:id="@+id/action_navigation_scanner_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_style"
+        android:name="com.codescannerqr.generator.view.fragments.bottomNavigate.StyleCodeBottomFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_style_bottom">
+        <action
+            android:id="@+id/action_navigation_style_to_stylePreviewFragment"
+            app:destination="@id/stylePreviewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.codescannerqr.generator.view.fragments.bottomNavigate.SettingsBottomFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_settings_bottom" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.codescannerqr.generator.view.fragments.bottomNavigate.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/stylePreviewFragment"
+        android:name="com.codescannerqr.generator.view.fragments.styleCodes.StylePreviewFragment"
+        android:label="fragment_style_preview"
+        tools:layout="@layout/fragment_style_preview" />
+</navigation>

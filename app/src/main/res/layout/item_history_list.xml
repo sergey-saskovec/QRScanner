@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<include android:id="@+id/nativeList"
+        layout="@layout/item_admob_native_ad"/>-->
+
+    <LinearLayout
+        android:id="@+id/native_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <!---->
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--add  several shimmer placeholder layout -->
+
+                <include
+                    layout="@layout/shimmer_placeholder_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <!---->
+
+        <com.codescannerqr.generator.adapter.recyclerAds.TemplateView
+            android:id="@+id/my_templatesmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+        <com.codescannerqr.generator.adapter.recyclerAds.TemplateView
+            android:id="@+id/my_templatemedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:gnt_template_type="@layout/gnt_medium_template_view" />
+
+        <com.codescannerqr.generator.adapter.recyclerAds.TemplateView
+            android:id="@+id/my_templatecustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:gnt_template_type="@layout/gnt_custom_medium_template_view" />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/native_ad_container">
+
+        <ImageView
+            android:id="@+id/imageViewQrCodeHistory"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/clear_search_button_content_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewIconHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="15dp"
+            android:contentDescription="@string/clear_search_button_content_description"
+            app:layout_constraintBottom_toTopOf="@+id/guideline1"
+            app:layout_constraintStart_toEndOf="@+id/imageViewQrCodeHistory"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewTitleHistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/txt14sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewThreeDots"
+            app:layout_constraintStart_toEndOf="@+id/imageViewIconHistory"
+            app:layout_constraintTop_toTopOf="@+id/imageViewIconHistory" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/textViewUrlHistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/txt14sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewThreeDots"
+            app:layout_constraintStart_toEndOf="@+id/imageViewQrCodeHistory"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitleHistory" />
+
+        <ImageButton
+            android:id="@+id/imageViewThreeDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/clear_search_button_content_description"
+            android:src="@drawable/ic_three_dots"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
